@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['autorickshaw', 'bus', 'car', 'mini-bus', 'motorcycle', 'scooter', 'truck']
+
+roboflow:
+  workspace: isi-m1ien
+  project: vehicles-h2xyk
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/isi-m1ien/vehicles-h2xyk/dataset/3

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 37
+names: ['Car', 'Car_Audi', 'Car_BMW', 'Car_Chevrolet', 'Car_Fiat', 'Car_Ford', 'Car_Honda', 'Car_Hyundai', 'Car_JEEP', 'Car_Mahindra', 'Car_Maruti-Suzuki', 'Car_Mercedes_Benz', 'Car_Nissan', 'Car_Renault', 'Car_Skoda', 'Car_TATA', 'Car_Toyota', 'Car_Volkswagen', 'Car_Volvo', 'autorickshaw', 'bus', 'car_Ambassador', 'car_Force', 'mini-bus', 'motorcycle', 'motorcycle_Hero', 'motorcycle_HeroHonda', 'motorcycle_Honda', 'motorcycle_KTM', 'motorcycle_Mahindra', 'motorcycle_RoyalEnfield', 'motorcycle_Suzuki', 'motorcycle_TVS', 'motorcycle_Yamaha', 'motorcycle_bajaj', 'scooter', 'truck']
+
+roboflow:
+  workspace: isi-m1ien
+  project: vehicles-h2xyk
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/isi-m1ien/vehicles-h2xyk/dataset/6
